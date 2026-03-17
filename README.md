@@ -408,13 +408,37 @@ Pada tahap ini dijelaskan tujuan dari pembuatan aplikasi Flutter serta fitur yan
 
 ## 2. Setup Environment
 
-|![Gambar 2](images/codelab2.png) |![Gambar 2a](images/codelab2a.png)|
+![Gambar 2](images/codelab2.png) 
+![Gambar 2a](images/codelab2a.png)
 
 ### Penjelasan:
 Pada tahap ini saya menyiapkan environment untuk pengembangan Flutter dengan menggunakan Visual Studio Code sebagai code editor. Saya juga telah menginstall Flutter SDK serta plugin Flutter pada VS Code. Berdasarkan hasil perintah `flutter doctor`, semua komponen utama telah terinstall dengan baik sehingga siap digunakan untuk pengembangan aplikasi. Selain itu, saya memilih perangkat Android sebagai development target untuk menjalankan aplikasi.
 
 ---
 
+## 3. Create a Project
 
+![Gambar 3](images/codelab2b.png)
+![Gambar 3a](images/codelab3a.png)
+![Gambar 3b](images/codelab3b.png)
+![Gambar 3c](images/codelab3c.png)
+
+### Penjelasan:
+Pada tahap ini saya membuat project Flutter baru menggunakan perintah "Flutter: New Project" di Visual Studio Code.
+Setelah project berhasil dibuat, saya melakukan konfigurasi dengan mengubah beberapa file penting seperti:
+- pubspec.yaml (untuk dependency)
+- analysis_options.yaml (untuk aturan coding)
+- main.dart (sebagai program utama)
+Perubahan utama dilakukan pada file main.dart untuk menampilkan aplikasi sederhana dengan fitur generate kata secara acak.
+Project berhasil dibuat dan siap untuk dijalankan pada tahap berikutnya.
+
+---
+
+## 4. Add a Button
+
+![Gambar 4](images
+
+### Penjelasan:
+Pada tahap ini saya menjalankan aplikasi Flutter menggunakan fitur debug pada VS Code. Kemudian saya mencoba fitur Hot Reload dengan mengubah teks pada aplikasi, dan perubahan langsung terlihat tanpa restart aplikasi. Selanjutnya saya menambahkan tombol "Next" menggunakan widget ElevatedButton. Tombol ini digunakan untuk menghasilkan kata baru setiap kali ditekan. Setelah menambahkan fungsi getNext(), tombol berhasil bekerja dengan menampilkan kata acak yang berbeda setiap kali ditekan.
 
 ---
