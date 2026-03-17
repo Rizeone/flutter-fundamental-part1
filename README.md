@@ -281,3 +281,103 @@ Aplikasi berhasil menampilkan gambar yang telah ditambahkan ke dalam folder asse
 
 ---
 
+# Praktikum 5 - Menerapkan Widget Material Design dan iOS Cupertino
+
+## 📌 Deskripsi
+Pada praktikum ini saya mempelajari berbagai widget pada Flutter, baik dari Material Design maupun iOS Cupertino, serta mengimplementasikannya ke dalam project.
+
+---
+
+## 🍎 Langkah 1: Cupertino Button dan Loading Bar
+
+![Langkah 1](images/praktikum5_langkah1.png)
+
+### Penjelasan:
+Saya membuat file `loading_cupertino.dart` di dalam folder `basic_widgets`, kemudian menambahkan widget CupertinoButton dan CupertinoActivityIndicator untuk menampilkan tombol dan loading khas iOS.
+
+---
+
+## 🖼️ Hasil Cupertino Widget
+
+![Langkah 1a](images/)
+---
+
+
+## 🔘 Langkah 2: Floating Action Button (FAB)
+
+![Langkah 2](images/praktikum5_langkah2.png)
+
+### Penjelasan:
+Saya membuat file fab_widget.dart dan menambahkan widget FloatingActionButton yang berfungsi sebagai tombol aksi dengan ikon.
+
+---
+
+## 🖼️ Hasil FAB
+
+![Langkah 2a](images)
+
+---
+
+## 🧱 Langkah 3: Scaffold Widget
+
+![Langkah 3](images/praktikum3_langkah3.png)
+![Langkah 3](images/praktikum5_langkah3a.png)
+
+### Penjelasan:
+Saya mengubah file main.dart dengan menggunakan Scaffold untuk mengatur layout aplikasi seperti AppBar, body, dan FloatingActionButton.
+
+---
+
+## 🖼️ Hasil Scaffold
+
+![Langkah 3a](images)
+
+---
+
+## 💬 Langkah 4: Dialog Widget
+
+![Langkah 4](images/praktikum5_langkah4.png)
+
+### Penjelasan:
+Saya menambahkan AlertDialog yang akan muncul ketika tombol ditekan, sebagai bentuk interaksi dengan pengguna.
+
+---
+
+## 🖼️ Hasil Dialog 
+
+![Langkah 4a](images)
+
+---
+
+## ⌨️ Langkah 5: Input dan Selection Widget
+
+![Langkah 5](images/praktikum5_langkah5.png)
+
+### Penjelasan:
+Saya menggunakan TextField untuk menerima input dari pengguna berupa teks.
+
+--- 
+
+## 🖼️ Hasil Input
+
+![Langkah 5a](images)
+
+---
+
+## 📅 Langkah 6: Date and Time Picker
+
+![Langkah 6](images/praktikum5_langkah6.png)
+![Langkah 6](images/praktikum5_langkah6a.png)
+
+### Penjelasan:
+Saya menambahkan fitur Date Picker untuk memilih tanggal, yang akan ditampilkan pada aplikasi.
+
+---
+
+## 🖼️ Hasil Date Picker
+
+![Langkah 6](images/praktikum5_langkah6b.png)
+![Langkah 6](images/praktikum5_langkah6c.png)
+![Langkah 6](images/praktikum5_langkah6d.png)
+
+---

@@ -9,8 +9,8 @@ class FabWidget extends StatelessWidget {
       home: Scaffold(
         floatingActionButton: FloatingActionButton(
           onPressed: () {},
-          backgroundColor: Colors.pink,
           child: const Icon(Icons.thumb_up),
+          backgroundColor: Colors.pink,
         ),
       ),
     );
