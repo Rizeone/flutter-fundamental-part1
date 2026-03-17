@@ -436,9 +436,165 @@ Project berhasil dibuat dan siap untuk dijalankan pada tahap berikutnya.
 
 ## 4. Add a Button
 
-![Gambar 4](images
+![Gambar 4](images/codelab4.png)
+![Gambar 4a](images/codelab4a.png)
 
 ### Penjelasan:
 Pada tahap ini saya menjalankan aplikasi Flutter menggunakan fitur debug pada VS Code. Kemudian saya mencoba fitur Hot Reload dengan mengubah teks pada aplikasi, dan perubahan langsung terlihat tanpa restart aplikasi. Selanjutnya saya menambahkan tombol "Next" menggunakan widget ElevatedButton. Tombol ini digunakan untuk menghasilkan kata baru setiap kali ditekan. Setelah menambahkan fungsi getNext(), tombol berhasil bekerja dengan menampilkan kata acak yang berbeda setiap kali ditekan.
+
+---
+
+## 5. Make the App Prettier
+
+![Gambar 5](images/codelab5.png)
+
+### Penjelasan:
+Pada tahap ini dilakukan peningkatan tampilan (UI) aplikasi agar lebih menarik dan mudah dibaca oleh pengguna.
+
+Perbaikan yang dilakukan antara lain:
+
+1. **Extract Widget (BigCard)**  
+   Teks yang menampilkan kata acak dipisahkan ke dalam widget baru bernama `BigCard` agar struktur kode lebih rapi dan mudah dikelola.
+
+2. **Menambahkan Card dan Padding**  
+   Widget `Text` dibungkus dengan `Padding` dan `Card` sehingga tampilan menjadi lebih jelas dan memiliki jarak (spacing) yang baik.
+
+3. **Menggunakan Theme**  
+   Warna pada Card diubah menggunakan `Theme` agar konsisten dengan desain aplikasi secara keseluruhan.
+
+4. **Mengatur Text Style**  
+   Ukuran dan warna teks diperbesar menggunakan `TextTheme` agar lebih mudah dibaca.
+
+5. **Meningkatkan Aksesibilitas**  
+   Menambahkan `semanticsLabel` agar teks dapat dibaca dengan baik oleh screen reader.
+
+6. **Menempatkan UI di Tengah**  
+   Menggunakan `Center` dan `mainAxisAlignment.center` agar tampilan aplikasi berada di tengah layar.
+
+7. **Menambahkan Spasi (SizedBox)**  
+   Memberikan jarak antar widget agar tampilan lebih rapi.
+Hasilnya, aplikasi menjadi lebih menarik, terstruktur, dan nyaman digunakan.
+
+---
+
+## 6. Add Functionality (Like / Favorite)
+
+![Gambar 6](images/codelab6.png)
+![Gambar 6a](images/codelab6a.png)
+![Gambar 6b](images/codelab6b.png)
+
+### Penjelasan:
+Pada tahap ini dilakukan penambahan fitur interaksi berupa tombol **Like (Favorite)** agar pengguna dapat menyimpan kata yang disukai.
+
+Perubahan yang dilakukan meliputi:
+
+1. **Menambahkan List Favorites**  
+   Menambahkan variabel `favorites` pada class `MyAppState` untuk menyimpan daftar kata yang disukai oleh pengguna.
+
+2. **Menambahkan Function toggleFavorite()**  
+   Function ini digunakan untuk:
+   - Menambahkan kata ke daftar favorit jika belum ada
+   - Menghapus kata jika sudah ada (toggle)
+   - Memanggil `notifyListeners()` agar UI ter-update
+
+3. **Menambahkan Button Like**  
+   Menggunakan `ElevatedButton.icon()` untuk membuat tombol Like dengan ikon hati.
+
+4. **Menggunakan Conditional Icon**  
+   Ikon akan berubah:
+   - ❤️ (favorite) jika sudah disukai  
+   - 🤍 (border) jika belum  
+
+5. **Menggunakan Row Layout**  
+   Tombol Like dan Next diletakkan sejajar menggunakan widget `Row`.
+
+6. **Menambahkan Spasi (SizedBox)**  
+   Memberikan jarak antar tombol agar tampilan lebih rapi.
+
+Hasilnya, aplikasi kini memiliki fitur untuk menyimpan kata favorit dan memberikan pengalaman interaktif kepada pengguna.
+
+---
+
+## 7. Add Navigation Rail
+
+![Gambar 7](images/codelab7.png)
+![Gambar 7a](images/codelab7a.png)
+
+### Penjelasan:
+Pada tahap ini dilakukan penambahan navigasi menggunakan **NavigationRail** untuk memisahkan halaman aplikasi menjadi beberapa bagian, yaitu halaman Home dan Favorites.
+
+Perubahan yang dilakukan meliputi:
+
+1. **Memisahkan Halaman (GeneratorPage)**  
+   Konten utama aplikasi dipindahkan ke widget baru bernama `GeneratorPage` agar struktur aplikasi lebih modular.
+
+2. **Menambahkan NavigationRail**  
+   Digunakan sebagai menu navigasi di sisi kiri aplikasi dengan dua menu:
+   - Home
+   - Favorites
+
+3. **Menggunakan StatefulWidget**  
+   Widget `MyHomePage` diubah menjadi StatefulWidget agar dapat menyimpan state `selectedIndex` untuk menentukan halaman yang aktif.
+
+4. **Menggunakan setState()**  
+   Saat user memilih menu, nilai `selectedIndex` diperbarui menggunakan `setState()` sehingga tampilan ikut berubah.
+
+5. **Menggunakan Switch Case untuk Navigasi**  
+   Digunakan untuk menentukan halaman yang ditampilkan berdasarkan `selectedIndex`.
+
+6. **Menggunakan LayoutBuilder (Responsif)**  
+   NavigationRail dibuat responsif dengan menampilkan label jika lebar layar ≥ 600 pixel.
+
+7. **Menggunakan Expanded Widget**  
+   Digunakan agar halaman utama (kanan) mengisi sisa ruang yang tersedia.
+
+Hasilnya, aplikasi kini memiliki navigasi antar halaman dan struktur yang lebih terorganisir serta responsif terhadap ukuran layar.
+
+---
+
+## 8. Add a New Page (Favorites Page)
+
+![Gambar 8](images/codelab%20(2).png)
+![Gambar 8](images/codelab%20(3).png)
+![Gambar 8](images/codelab%20(4).png)
+![Gambar 8](images/codelab%20(5).png)
+![Gambar 8](images/codelab%20(6).png)
+![Gambar 8](images/codelab%20(7).png)
+![Gambar 8](images/codelab%20(9).png)
+![Gambar 8](images/codelab%20(10).png)
+![Gambar 8](images/codelab%20(11).png)
+![Gambar 8](images/codelab%20(12).png)
+![Gambar 8](images/codelab%20(13).png)
+![Gambar 8](images/codelab%20(1).png)
+
+
+### Penjelasan:
+Pada tahap ini ditambahkan halaman baru bernama **FavoritesPage** yang berfungsi untuk menampilkan daftar kata yang telah disukai oleh pengguna.
+
+Perubahan yang dilakukan meliputi:
+
+1. **Membuat Widget FavoritesPage**  
+   Dibuat widget baru bertipe StatelessWidget untuk menampilkan daftar favorit.
+
+2. **Mengambil Data dari State**  
+   Data favorit diambil menggunakan `context.watch<MyAppState>()`.
+
+3. **Menampilkan Kondisi Kosong**  
+   Jika belum ada data favorit, maka akan ditampilkan pesan:
+   *"No favorites yet."*
+
+4. **Menggunakan ListView**  
+   Untuk menampilkan daftar favorit digunakan widget `ListView` agar dapat discroll.
+
+5. **Menggunakan ListTile**  
+   Setiap item favorit ditampilkan menggunakan `ListTile` dengan ikon ❤️ dan teks kata.
+
+6. **Menampilkan Jumlah Favorit**  
+   Ditambahkan informasi jumlah data favorit yang tersimpan.
+
+7. **Menghubungkan ke Navigation**  
+   Widget `Placeholder` pada NavigationRail diganti dengan `FavoritesPage`.
+
+Hasilnya, aplikasi kini memiliki halaman khusus untuk menampilkan daftar kata favorit yang dipilih oleh pengguna.
 
 ---
