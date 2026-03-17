@@ -141,8 +141,7 @@ Repository berhasil dibuat dan menampilkan halaman utama repository.
 
 ### Penjelasan:
 Saya membuka terminal di VS Code dan menjalankan perintah:
-```bash
-git init
+"```"bash git init"
 
 ---
 
@@ -161,7 +160,7 @@ Saya melakukan stage pada file `.gitignore` melalui menu Source Control di VS Co
 
 ### Penjelasan:
 Saya melakukan commit pertama dengan pesan:
-```bash
-tambah gitignore
+"```bash
+tambah gitignore"
 
 ---
