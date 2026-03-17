@@ -104,7 +104,13 @@ Perangkat dihubungkan menggunakan kabel USB, kemudian dipilih pada Android Studi
 Perangkat dihubungkan menggunakan jaringan Wi-Fi dengan fitur Wireless Debugging, kemudian dipasangkan melalui QR Code atau pairing code.
 
 ---
+## 📱 Hasil Running di Device
 
+![Hasil Device](images/praktikum2_langkahbukti.png)
+
+### Penjelasan:
+Aplikasi berhasil dijalankan pada perangkat Android saya menggunakan koneksi USB Debugging. Hal ini menunjukkan bahwa perangkat telah berhasil terhubung dengan Flutter.
+---
 ## ⚠️ Pemecahan Masalah
 
 ### Penjelasan:

@@ -10,15 +10,16 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      title: 'Hello World App',
       home: Scaffold(
-        appBar: AppBar(title: const Text("TextField")),
-        body: const Padding(
-          padding: EdgeInsets.all(20),
-          child: TextField(
-            decoration: InputDecoration(
-              border: OutlineInputBorder(),
-              labelText: 'Nama',
-            ),
+        appBar: AppBar(
+          title: const Text('Hello World'),
+        ),
+        body: const Center(
+          child: Text(
+            'Muhammad Riswan\nNPM: 2340304016',
+            textAlign: TextAlign.center,
+            style: TextStyle(fontSize: 20),
           ),
         ),
       ),
