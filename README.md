@@ -220,3 +220,64 @@ Saya menampilkan hasil running aplikasi Flutter dengan teks yang telah diubah me
 
 ---
 
+# Praktikum 4 - Menerapkan Widget Dasar
+
+## 📌 Deskripsi
+Pada praktikum ini dilakukan pembuatan widget dasar pada Flutter yaitu Text Widget dan Image Widget, serta menghubungkannya ke file main.dart.
+
+---
+
+## 📝 Langkah 1: Text Widget
+
+![Langkah 1](images/praktikum4_langkah1.png)
+
+### Penjelasan:
+Saya membuat folder `basic_widgets` di dalam folder lib, kemudian membuat file `text_widget.dart`. Pada file tersebut saya menambahkan kode untuk menampilkan teks menggunakan widget Text dan mengganti nama "Fulan" dengan nama lengkap saya.
+
+---
+
+## 🔗 Integrasi ke main.dart
+
+![Langkah 1a](images/praktikum4_langkah1a.png)
+
+### Penjelasan:
+Saya melakukan import file text_widget.dart ke dalam file main.dart, kemudian mengganti widget Text default dengan widget MyTextWidget sehingga teks dapat ditampilkan pada aplikasi.
+
+---
+
+## 🖼️ Hasil Text Widget
+
+![Langkah 1b](images/praktikum4_langkah1b.png)
+
+### Penjelasan:
+Aplikasi berhasil menampilkan teks sesuai dengan yang telah dibuat pada Text Widget.
+
+---
+
+## 🖼️ Langkah 2: Image Widget
+
+![Langkah 2](images/praktikum4_langkah2.png)
+
+### Penjelasan:
+Saya membuat file image_widget.dart di dalam folder basic_widgets, kemudian menambahkan kode untuk menampilkan gambar menggunakan widget Image.
+
+---
+
+## ⚙️ Konfigurasi Asset (pubspec.yaml)
+
+![Langkah 2a](images/praktikum4_langkah2a.png)
+
+### Penjelasan:
+Saya menambahkan asset gambar pada file pubspec.yaml agar gambar dapat digunakan di dalam project.
+
+---
+
+## 🖼️ Hasil Image Widget
+
+![Langkah 2b](images/praktikum4_langkah2b.png)
+
+### Penjelasan:
+Aplikasi berhasil menampilkan gambar yang telah ditambahkan ke dalam folder assets.
+
+---
+
