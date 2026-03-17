@@ -299,7 +299,7 @@ Saya membuat file `loading_cupertino.dart` di dalam folder `basic_widgets`, kemu
 
 ## 🖼️ Hasil Cupertino Widget
 
-![Langkah 1a](images/)
+![Langkah 1a](images/praktikum5_langkah1a.png)
 ---
 
 
@@ -314,14 +314,14 @@ Saya membuat file fab_widget.dart dan menambahkan widget FloatingActionButton ya
 
 ## 🖼️ Hasil FAB
 
-![Langkah 2a](images)
+![Langkah 2b](images/praktikum5_langkah2a.png)
 
 ---
 
 ## 🧱 Langkah 3: Scaffold Widget
 
 ![Langkah 3](images/praktikum3_langkah3.png)
-![Langkah 3](images/praktikum5_langkah3a.png)
+![Langkah 3a](images/praktikum5_langkah3a.png)
 
 ### Penjelasan:
 Saya mengubah file main.dart dengan menggunakan Scaffold untuk mengatur layout aplikasi seperti AppBar, body, dan FloatingActionButton.
@@ -330,7 +330,7 @@ Saya mengubah file main.dart dengan menggunakan Scaffold untuk mengatur layout a
 
 ## 🖼️ Hasil Scaffold
 
-![Langkah 3a](images)
+![Langkah 3b](images/praktikum5_langkah3b.png)
 
 ---
 
@@ -345,8 +345,8 @@ Saya menambahkan AlertDialog yang akan muncul ketika tombol ditekan, sebagai ben
 
 ## 🖼️ Hasil Dialog 
 
-![Langkah 4a](images)
-
+![Langkah 4a](images/praktikum5_langkah4a.png)
+![Langkah 4b](images/praktikum5_langkah4b.png)
 ---
 
 ## ⌨️ Langkah 5: Input dan Selection Widget
@@ -360,14 +360,15 @@ Saya menggunakan TextField untuk menerima input dari pengguna berupa teks.
 
 ## 🖼️ Hasil Input
 
-![Langkah 5a](images)
+![Langkah 5a](images/praktikum5_langkah5a.png)
+![Langkah 5b](images/praktikum5_langkah5b.png)
 
 ---
 
 ## 📅 Langkah 6: Date and Time Picker
 
 ![Langkah 6](images/praktikum5_langkah6.png)
-![Langkah 6](images/praktikum5_langkah6a.png)
+![Langkah 6a](images/praktikum5_langkah6a.png)
 
 ### Penjelasan:
 Saya menambahkan fitur Date Picker untuk memilih tanggal, yang akan ditampilkan pada aplikasi.
@@ -376,8 +377,8 @@ Saya menambahkan fitur Date Picker untuk memilih tanggal, yang akan ditampilkan 
 
 ## 🖼️ Hasil Date Picker
 
-![Langkah 6](images/praktikum5_langkah6b.png)
-![Langkah 6](images/praktikum5_langkah6c.png)
-![Langkah 6](images/praktikum5_langkah6d.png)
+![Langkah 6b](images/praktikum5_langkah6b.png)
+![Langkah 6c](images/praktikum5_langkah6c.png)
+![Langkah 6d](images/praktikum5_langkah6d.png)
 
 ---
