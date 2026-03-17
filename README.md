@@ -20,7 +20,7 @@ Saya memilih folder penyimpanan project Flutter pada direktori yang mudah diakse
 
 ## 📌 Langkah 3: Memberi Nama Project
 
-![Langkah 3](images/praktikum1_langkah3.png)
+![Langkah 3:](images/praktikum1_langkah3.png)
 
 ### Penjelasan:
 Saya memberi nama project "hello_world" dengan format huruf kecil tanpa spasi.
@@ -29,7 +29,7 @@ Saya memberi nama project "hello_world" dengan format huruf kecil tanpa spasi.
 
 ## 📌 Langkah 4: Project Berhasil Dibuat
 
-![Langkah 4](images/praktikum1_langkah4.png)
+![Langkah 4:](images/praktikum1_langkah4.png)
 
 ### Penjelasan:
 Project berhasil dibuat dengan munculnya pesan "Your Flutter Project is ready!" dan struktur project tampil di VS Code.
@@ -107,5 +107,61 @@ Jika terjadi kendala seperti perangkat tidak terdeteksi, dilakukan beberapa solu
 - Restart Android Studio
 - Mengaktifkan ulang USB Debugging
 - Revoke USB debugging authorization
+
+---
+
+# Praktikum 3 - Membuat Repository GitHub dan Laporan Praktikum
+
+## 📌 Deskripsi
+Pada praktikum ini dilakukan proses pembuatan repository GitHub, menghubungkan project Flutter ke Git, serta melakukan commit dan push ke repository.
+
+---
+
+## 🌐 Langkah 1: Membuat Repository GitHub
+
+![Langkah 1](images/praktikum3_langkah1.png)
+
+### Penjelasan:
+Saya membuat repository baru di GitHub dengan nama "flutter-fundamental-part1".
+
+---
+
+## 📁 Langkah 2: Repository Berhasil Dibuat
+
+![Langkah 2](images/praktikum3_langkah2.png)
+
+### Penjelasan:
+Repository berhasil dibuat dan menampilkan halaman utama repository.
+
+---
+
+## 💻 Langkah 3: Inisialisasi Git
+
+![Langkah 3](images/praktikum3_langkah3.png)
+
+### Penjelasan:
+Saya membuka terminal di VS Code dan menjalankan perintah:
+```bash
+git init
+
+---
+
+## 📤 Langkah 4: Stage File .gitignore
+
+![Langkah 4](images/praktikum3_langkah4.jpg)
+
+### Penjelasan:
+Saya melakukan stage pada file `.gitignore` melalui menu Source Control di VS Code untuk menyiapkan file sebelum di-commit.
+
+---
+
+## 📝 Langkah 5: Commit Pertama
+
+![Langkah 5](images/praktikum3_langkah5.jpg)
+
+### Penjelasan:
+Saya melakukan commit pertama dengan pesan:
+```bash
+tambah gitignore
 
 ---
