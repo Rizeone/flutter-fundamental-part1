@@ -147,7 +147,7 @@ Saya membuka terminal di VS Code dan menjalankan perintah:
 
 ## 📤 Langkah 4: Stage File .gitignore
 
-![Langkah 4](images/praktikum3_langkah4.jpg)
+![Langkah 4](images/praktikum3_langkah4.png)
 
 ### Penjelasan:
 Saya melakukan stage pada file `.gitignore` melalui menu Source Control di VS Code untuk menyiapkan file sebelum di-commit.
@@ -156,11 +156,67 @@ Saya melakukan stage pada file `.gitignore` melalui menu Source Control di VS Co
 
 ## 📝 Langkah 5: Commit Pertama
 
-![Langkah 5](images/praktikum3_langkah5.jpg)
+![Langkah 5](images/praktikum3_langkah5.png)
 
 ### Penjelasan:
 Saya melakukan commit pertama dengan pesan:
-```bash
-tambah gitignore```
+```bash tambah gitignore```
 
 ---
+
+## 🚀 Langkah 6: Push ke Repository
+
+![Langkah 6](images/praktikum3_langkah6.png)
+
+### Penjelasan:
+Saya melakukan push ke repository GitHub melalui menu di VS Code agar perubahan tersimpan secara online.
+
+---
+
+## 🔗 Langkah 7-8: Menambahkan Remote Repository
+
+![Langkah 7](images/praktikum3_langkah7.png)
+![Langkah 8](images/praktikum3_langkah8a.png)
+![Langkah 8](images/praktikum3_langkah8b.png)   
+
+### Penjelasan:
+Saya menambahkan remote repository dengan memilih "Add Remote", kemudian memasukkan URL repository GitHub dan memberi nama remote sebagai: ``origin``
+
+---
+
+## 📄 Langkah 9: Push File README.md
+
+![Langkah 9](images/praktikum3_langkah9.png)
+
+### Penjelasan:
+Saya melakukan commit dan push file README.md ke repository GitHub. Saat proses push, saya menggunakan personal access token sebagai pengganti password.
+
+---
+
+## 📦 Langkah 10: Push Semua File Project
+
+![Langkah 10](images/praktikum3_langkah10.png)
+
+### Penjelasan:
+Saya melakukan stage all changes, kemudian commit dengan pesan: ``project hello_world`` lalu melakukan push ke repository.
+
+---
+
+## ▶️ Langkah 11: Menjalankan Project Flutter
+
+![Langkah 11](images/praktikum3_langkah11.png)
+
+### Penjelasan:
+Saya menjalankan project Flutter menggunakan emulator atau perangkat fisik hingga aplikasi berhasil ditampilkan.
+
+---
+
+## 📸 Langkah 12: Screenshot Hasil Running
+
+![Langkah 12](images/praktikum3_langkah12.png)
+
+### Penjelasan:
+Saya menampilkan hasil running aplikasi Flutter dengan teks yang telah diubah menjadi nama lengkap sebagai bukti bahwa aplikasi berhasil dijalankan.
+
+---
+
