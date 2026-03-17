@@ -396,3 +396,25 @@ Saya menambahkan fitur Date Picker untuk memilih tanggal, yang akan ditampilkan 
 ![Langkah 6d](images/praktikum5_langkah6d.png)
 
 ---
+
+## 1. Introduction
+
+![Intro](images/codelab1a.png)
+
+### Penjelasan:
+Pada tahap ini dijelaskan tujuan dari pembuatan aplikasi Flutter serta fitur yang akan dipelajari.
+
+---
+
+## 2. Setup Environment
+
+|![Gambar 2](images/codelab2.png) |![Gambar 2a](images/codelab2a.png)|
+
+### Penjelasan:
+Pada tahap ini saya menyiapkan environment untuk pengembangan Flutter dengan menggunakan Visual Studio Code sebagai code editor. Saya juga telah menginstall Flutter SDK serta plugin Flutter pada VS Code. Berdasarkan hasil perintah `flutter doctor`, semua komponen utama telah terinstall dengan baik sehingga siap digunakan untuk pengembangan aplikasi. Selain itu, saya memilih perangkat Android sebagai development target untuk menjalankan aplikasi.
+
+---
+
+
+
+---
