@@ -110,7 +110,9 @@ Perangkat dihubungkan menggunakan jaringan Wi-Fi dengan fitur Wireless Debugging
 
 ### Penjelasan:
 Aplikasi berhasil dijalankan pada perangkat Android saya menggunakan koneksi USB Debugging. Hal ini menunjukkan bahwa perangkat telah berhasil terhubung dengan Flutter.
+
 ---
+
 ## ⚠️ Pemecahan Masalah
 
 ### Penjelasan:
