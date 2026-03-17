@@ -1,4 +1,10 @@
-# Praktikum hello_world
+# 📱 Praktikum Flutter - hello_world
+
+## 👤 Identitas Mahasiswa
+- **Nama:** Muhammad Riswan  
+- **NPM:** 2340304016  
+
+---
 
 # Praktikum 1 - Membuat Project Flutter Baru
 
